@@ -1,0 +1,149 @@
+body {
+    margin: 0%;
+}
+
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+}
+.logo {
+    width: 50%;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+.info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+.info>div {
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+.description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.description>div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+#abt-sub {
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    display: none;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.section1 {
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+
+user agent stylesheet
+section {
+    display: block;
+}
+
+
+.section2 {
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div {
+    text-align: center;
+    color: wheat;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.fa-angle-down:before {
+    content: "\f107";
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+}
+.section2 button {
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+user agent stylesheet
+
+
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+
